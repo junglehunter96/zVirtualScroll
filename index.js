@@ -1,8 +1,8 @@
-import zVirtualScroll  from "./components/zVirtualScroll.vue";
+import VirtualScroll  from "./components/zVirtualScroll.vue";
 
 
 // 放置到数组中
-const components = [zVirtualScroll];
+const components = [VirtualScroll];
 export default {
   // 传入两个参数，app是实例，options是app.use(bao,options)的时候，传入的第二个值
   install: (app, options) => {
